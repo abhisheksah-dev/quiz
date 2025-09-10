@@ -1,7 +1,8 @@
 import React, { useState, useEffect, useMemo } from 'react';
 
 // Base URL for the API. Remember to set this in a .env file for production.
-const API_BASE_URL = 'http://localhost:5001';
+// New, improved code
+const API_BASE_URL = 'https://quiz-xivd.onrender.com' || 'http://localhost:5001';
 
 // --- Main App Component ---
 export default function App() {
